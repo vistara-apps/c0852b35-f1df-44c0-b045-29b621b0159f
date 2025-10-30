@@ -7,11 +7,11 @@
   "frame": {
     "version": "1",
     "name": "AI Conversational Forms",
-    "homeUrl": "https://ai-forms.example.com",
+    "homeUrl": "https://app-21b0159f-mg83.vercel.app",
     "iconUrl": "https://ai-forms.example.com/icon.png",
     "splashImageUrl": "https://ai-forms.example.com/splash.png",
     "splashBackgroundColor": "#0a1929",
-    "webhookUrl": "https://ai-forms.example.com/api/webhook",
+    "webhookUrl": "https://app-21b0159f-mg83.vercel.app/api/webhook",
     "subtitle": "Dynamic AI-driven forms",
     "description": "Transform static forms into engaging, conversational experiences using AI, integrated with Farcaster for social interaction and Base for onchain credentialing.",
     "screenshotUrls": [
@@ -20,7 +20,13 @@
       "https://ai-forms.example.com/screenshot3.png"
     ],
     "primaryCategory": "productivity",
-    "tags": ["ai", "forms", "conversational", "base", "farcaster"],
+    "tags": [
+      "ai",
+      "forms",
+      "conversational",
+      "base",
+      "farcaster"
+    ],
     "heroImageUrl": "https://ai-forms.example.com/hero.png",
     "tagline": "AI-powered conversational forms",
     "ogTitle": "AI Conversational Forms",
