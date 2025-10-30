@@ -1,10 +1,15 @@
 import type { Metadata } from 'next'
+import { Providers } from './providers'
 import './globals.css'
-import { ThemeProvider } from './components/ThemeProvider'
 
 export const metadata: Metadata = {
-  title: 'Base Mini App',
-  description: 'Built with Zara',
+  title: 'AI Conversational Forms',
+  description: 'Dynamic, AI-driven forms for onboarding, surveys, and applications on Base',
+  openGraph: {
+    title: 'AI Conversational Forms',
+    description: 'Transform static forms into engaging, conversational experiences',
+    images: ['/og-image.png'],
+  },
 }
 
 export default function RootLayout({
@@ -15,9 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <ThemeProvider defaultTheme="base">
-          {children}
-        </ThemeProvider>
+        <Providers>{children}</Providers>
       </body>
     </html>
   )

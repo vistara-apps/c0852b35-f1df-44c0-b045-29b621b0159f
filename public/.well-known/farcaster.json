@@ -1,0 +1,30 @@
+{
+  "accountAssociation": {
+    "header": "eyJmaWQiOjkxNTIsInR5cGUiOiJjdXN0b2R5Iiwia2V5IjoiMHgwMmVmNzkwRGQ3OTkzQTM1ZkQ4NDdDMDUzRURkQUU5NDBEMDU1NTk2In0",
+    "payload": "eyJkb21haW4iOiJhaS1mb3Jtcy5leGFtcGxlLmNvbSJ9",
+    "signature": "MHgxMGQwZGU4ZGYwZDUwZTdmMGIxN2YxMTU2NDI1MjRmZTY0MTUyZGU4ZGU1MWU0MThiYjU4ZjVmZmQxYjRjNDBiNGVlZTRhNDcwNmVmNjhlMzQ0ZGQ5MDBkYmQyMmNlMmVlZGY5ZGQ0N2JlNWRmNzMwYzUxNjE4OWVjZDJjY2Y0MDFj"
+  },
+  "frame": {
+    "version": "1",
+    "name": "AI Conversational Forms",
+    "homeUrl": "https://ai-forms.example.com",
+    "iconUrl": "https://ai-forms.example.com/icon.png",
+    "splashImageUrl": "https://ai-forms.example.com/splash.png",
+    "splashBackgroundColor": "#0a1929",
+    "webhookUrl": "https://ai-forms.example.com/api/webhook",
+    "subtitle": "Dynamic AI-driven forms",
+    "description": "Transform static forms into engaging, conversational experiences using AI, integrated with Farcaster for social interaction and Base for onchain credentialing.",
+    "screenshotUrls": [
+      "https://ai-forms.example.com/screenshot1.png",
+      "https://ai-forms.example.com/screenshot2.png",
+      "https://ai-forms.example.com/screenshot3.png"
+    ],
+    "primaryCategory": "productivity",
+    "tags": ["ai", "forms", "conversational", "base", "farcaster"],
+    "heroImageUrl": "https://ai-forms.example.com/hero.png",
+    "tagline": "AI-powered conversational forms",
+    "ogTitle": "AI Conversational Forms",
+    "ogDescription": "Dynamic, AI-driven forms for onboarding, surveys, and applications on Base",
+    "ogImageUrl": "https://ai-forms.example.com/og-image.png"
+  }
+}
